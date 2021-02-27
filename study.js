@@ -13,3 +13,9 @@ console.log(player);
 console.log(player + "は、荒野を歩いていた");
 console.log(player + "は、モンスターと戦った");
 console.log(player + "は、モンスターをたおした");
+
+// 数の表示とサイコロ
+var randnum = parseInt(Math.random() * 10) + 1;  //小数点以下切り捨てparseIntを付ける
+//console.log(randnum);
+//var number = 100;
+console.log("スライムが" + randnum + "匹あらわれた")

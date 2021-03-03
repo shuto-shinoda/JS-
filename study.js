@@ -42,3 +42,13 @@ console.log(number);
 console.log(text);
 console.log(number + text);
 console.log(number + 20);
+
+// if文による条件分岐　else if
+var number = 1;
+if (number == 1) {
+  console.log("スキ！");// 条件式が成立したときの処理
+} else if (number == 2) {
+  console.log("どちらでもない");// 条件式2が成立したときの処理
+} else {
+  console.log("キライ");// 条件式がどちらも成立しなかったときの処理
+}

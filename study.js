@@ -52,3 +52,17 @@ if (number == 1) {
 } else {
   console.log("キライ");// 条件式がどちらも成立しなかったときの処理
 }
+
+// if文による条件分岐 比較演算子
+process.stdin.resume();
+process.stdin.setEncoding('utf8');
+var  = 1;
+if (number == 1) {
+  console.log("スキ！");// 条件式が成立したときの処理
+} else if (number == 2) {
+  console.log("どちらでもない");// 条件式2が成立したときの処理
+} else {
+  console.log("キライ");// 条件式がどちらも成立しなかったときの処理
+}
+
+・・a＝＝・・a＝＝
